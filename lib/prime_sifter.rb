@@ -1,4 +1,3 @@
-
 def prime_sifter(number)
   prime = 2
   list = (2..number).to_a
@@ -9,5 +8,3 @@ def prime_sifter(number)
   end
   list
 end
-
-print prime_sifter(6)
